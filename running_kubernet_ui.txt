@@ -1,0 +1,2 @@
+kubectl create -f https://git.io/kube-dashboard 
+kubectl proxy  --address="192.168.122.245" --accept-hosts='.*'
